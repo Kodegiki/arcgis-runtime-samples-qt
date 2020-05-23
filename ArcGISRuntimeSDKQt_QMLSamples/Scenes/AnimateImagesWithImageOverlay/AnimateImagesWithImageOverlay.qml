@@ -27,7 +27,7 @@ Rectangle {
     height: 600
 
     readonly property var timerIntervals: [17,34,68]
-    readonly property var imageFrameRefreshRate: ["60 fps","30 fps","15 fps"]
+    readonly property var imageFrameRefreshRate: ["Fast","Medium","Slow"]
     readonly property url dataPath: System.userHomePath +  "/ArcGIS/Runtime/Data/3D/ImageOverlay/PacificSouthWest"
     property int fileNamesLength: 0
 
